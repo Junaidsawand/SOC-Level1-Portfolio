@@ -1,26 +1,46 @@
-# SOC Analyst Level 1 Portfolio
-Professional repository for Security Operations Center (SOC) triage, analysis, and documentation.
+# Junaid Ahmed | Security Operations Center Portfolio
+**Threat Hunting • Incident Response • Detection Engineering**
 
-## 🛡️ Objective
-This portfolio showcases my ability to analyze security alerts, document incidents, and develop detection logic using industry-standard tools (Splunk, Wireshark, Microsoft Sentinel).
+## 👤 Executive Summary
+I am a Security Analyst focused on identifying, analyzing, and mitigating cyber threats within a SOC environment. This portfolio documents my technical proficiency in the "Triage-to-Remediation" lifecycle. 
 
----
-
-## 📁 Project Structure
-* **[Incident Reports](./Incident-Reports/):** Detailed write-ups of phishing, malware, and network anomalies.
-* **[Detection Rules](./Detection-Rules/):** Custom SIEM queries and Sigma rules for threat hunting.
-* **[Notes](./Notes/):** Deep dives into the MITRE ATT&CK framework and SOC workflows.
-* **[Screenshots](./Screenshots/):** Visual evidence of log analysis and dashboarding.
+Through the **TryHackMe SOC Level 1 path**, I have logged extensive hours in simulated security environments, specializing in SIEM log analysis, network forensics, and endpoint security. My methodology is rooted in the NIST Incident Response Framework and the MITRE ATT&CK matrix.
 
 ---
 
-## 🛠️ Tools Used
-* **SIEM:** Splunk / Microsoft Sentinel
-* **Traffic Analysis:** Wireshark / TCPDump
-* **Threat Intel:** VirusTotal, Any.Run, AbuseIPDB
-* **Endpoint:** Sysmon, Windows Event Viewer
+## 🛠️ Technical Ecosystem
+* **SIEM/Log Management:** Splunk (SPL), Microsoft Sentinel (KQL), ELK Stack.
+* **Network Analysis:** Wireshark, TCPDump, Zeek/Bro.
+* **Endpoint Analysis:** Windows Event Logs, Sysmon, EDR Telemetry.
+* **Threat Intelligence:** VirusTotal, AbuseIPDB, Cisco Talos, URLScan.io.
+* **Operating Systems:** Linux (Ubuntu/Kali), Windows Server (Active Directory).
 
 ---
 
-## 🚀 Featured Investigation: Phishing Analysis
-> Brief 1-sentence description: Analyzed a credential harvesting email and extracted malicious URLs to block at the perimeter.
+## 📁 Portfolio Structure
+
+### 🛡️ [Incident Investigations](./Incident-Reports/)
+*Comprehensive case studies following standardized SOC reporting formats.*
+* **Phishing Analysis:** Email header forensics and malicious link extraction.
+* **Authentication Security:** Investigating brute-force and credential stuffing.
+* **Malware Analysis:** Analyzing suspicious process execution and persistence.
+
+### 🔍 [Detection Engineering](./Detection-Rules/)
+* Custom **KQL** and **SPL** queries for identifying TTPs (Tactics, Techniques, and Procedures).
+* Rule-writing for anomaly detection based on MITRE ATT&CK techniques.
+
+### 📚 [Technical Notes](./Notes/)
+* Deep dives into the NIST 800-61r2 Incident Handling Guide.
+* Network protocol documentation (HTTP/S, DNS, SMB, Kerberos).
+
+---
+
+## 🚀 Key Projects & Labs
+* **TryHackMe SOC Level 1:** Completed the full defensive security track involving 20+ real-world simulation rooms.
+* **Home Lab Environment:** [Active Project] Configuring a Windows/Linux logging pipeline into a central SIEM for local threat monitoring.
+
+---
+
+## 📫 Connect with me
+* **LinkedIn:** [https://www.linkedin.com/in/junaidsawand/]
+* **TryHackMe:** [https://tryhackme.com/p/junaidsawand]
