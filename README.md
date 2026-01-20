@@ -42,5 +42,5 @@ Through the **TryHackMe SOC Level 1 path**, I have logged extensive hours in sim
 ---
 
 ## 📫 Connect with me
-* **LinkedIn:** [https://www.linkedin.com/in/junaidsawand/]
-* **TryHackMe:** [https://tryhackme.com/p/junaidsawand]
+* **LinkedIn:** https://www.linkedin.com/in/junaidsawand/
+* **TryHackMe:** https://tryhackme.com/p/junaidsawand
