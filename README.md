@@ -1,46 +1,40 @@
-# Junaid Ahmed | Security Operations Center Portfolio
-**Threat Hunting • Incident Response • Detection Engineering**
+# Junaid Sawand | Defensive Security & Forensics Portfolio
 
-## 👤 Executive Summary
-I am a Security Analyst focused on identifying, analyzing, and mitigating cyber threats within a SOC environment. This portfolio documents my technical proficiency in the "Triage-to-Remediation" lifecycle. 
+Welcome to my engineering logs. This repository documents my hands-on experience building defensive architectures, analyzing host/network telemetry, and conducting forensic investigations. 
 
-Through the **TryHackMe SOC Level 1 path**, I have logged extensive hours in simulated security environments, specializing in SIEM log analysis, network forensics, and endpoint security. My methodology is rooted in the NIST Incident Response Framework and the MITRE ATT&CK matrix.
+I am currently documented my progress through the **Cyberster Blue Team Internship (Batch #02)** mentored by Abdullah Zia[cite: 2]. My focus is on moving past simple theory to build production-grade detection pipelines and comprehensive incident timelines[cite: 1, 2].
 
----
-
-## 🛠️ Technical Ecosystem
-* **SIEM/Log Management:** Splunk (SPL), Microsoft Sentinel (KQL), ELK Stack.
-* **Network Analysis:** Wireshark, TCPDump, Zeek/Bro.
-* **Endpoint Analysis:** Windows Event Logs, Sysmon, EDR Telemetry.
-* **Threat Intelligence:** VirusTotal, AbuseIPDB, Cisco Talos, URLScan.io.
-* **Operating Systems:** Linux (Ubuntu/Kali), Windows Server (Active Directory).
+## 🛠️ Core Tech Stack & Tools
+*   **SIEM / Log Management:** Wazuh SIEM[cite: 2]
+*   **Intrusion Detection:** Suricata IDS[cite: 2]
+*   **Forensics & Artifact Analysis:** FTK Imager, Autopsy, EZ Tools Suite[cite: 2]
+*   **Network Analysis:** Wireshark, tcpdump[cite: 2]
 
 ---
 
-## 📁 Portfolio Structure
+## 📁 Repository Structure & Roadmap
 
-### 🛡️ [Incident Investigations](./Incident-Reports/)
-*Comprehensive case studies following standardized SOC reporting formats.*
-* **Phishing Analysis:** Email header forensics and malicious link extraction.
-* **Authentication Security:** Investigating brute-force and credential stuffing.
-* **Malware Analysis:** Analyzing suspicious process execution and persistence.
+### 🔵 01_SOC-Track (Phase 1: Weeks 1 - 6)
+*   [x] **Week 1: SOC Foundations & Lab Setup** | Dual-adapter isolated network setup using VMware Workstation Pro. Deployed Kali Linux (Attacker), Ubuntu Server (Wazuh SIEM), and Windows 10 Pro (Monitored Endpoint)[cite: 1, 2].
+*   [ ] **Week 2: Wazuh SIEM Compilation** | Setting up the indexer, server manager, and security dashboard components from the ground up[cite: 1].
+*   [ ] **Week 3: Real-Time File Integrity Monitoring (FIM)** | Configuring directory watching and filtering system logging noise[cite: 1, 2].
+*   [ ] **Week 4: Suricata IDS Integration** | Merging live network traffic detection rules into centralized SIEM alert feeds[cite: 2].
+*   [ ] **Week 5: Threat Intelligence Automation** | Building automation lookups utilizing active OSINT feeds (VirusTotal, Abuse.ch)[cite: 2].
+*   [ ] **Week 6: Applied Malware Analysis** | Investigating runtime executable execution paths and staging response plans[cite: 2].
 
-### 🔍 [Detection Engineering](./Detection-Rules/)
-* Custom **KQL** and **SPL** queries for identifying TTPs (Tactics, Techniques, and Procedures).
-* Rule-writing for anomaly detection based on MITRE ATT&CK techniques.
-
-### 📚 [Technical Notes](./Notes/)
-* Deep dives into the NIST 800-61r2 Incident Handling Guide.
-* Network protocol documentation (HTTP/S, DNS, SMB, Kerberos).
-
----
-
-## 🚀 Key Projects & Labs
-* **TryHackMe SOC Level 1:** Completed the full defensive security track involving 20+ real-world simulation rooms.
-* **Home Lab Environment:** [Active Project] Configuring a Windows/Linux logging pipeline into a central SIEM for local threat monitoring.
+### 🔴 02_DFIR-Track (Phase 2: Weeks 7 - 12)
+*   [ ] **Week 7: Forensic Disk Imaging** | Creating bit-stream forensic copies, executing integrity checks, and logging strict chain of custody data[cite: 2].
+*   [ ] **Week 8: Windows Host Artifacts** | Deep carving of Event Logs, parsing application Prefetch history, and system execution trace tracking[cite: 2].
+*   [ ] **Week 9: Browser & Memory Forensics** | Recovering data streams, session state, and download histories from common web clients[cite: 2].
+*   [ ] **Week 10: Shortcut & Device Analysis** | Reconstructing chronological user activity using Jump Lists, LNK metadata patterns, and external storage footprints[cite: 2].
+*   [ ] **Week 11: Windows Registry Forensics** | Locating persistence footholds, checking configuration states, and parsing malware execution artifacts[cite: 2].
+*   [ ] **Week 12: M57 Capstone Investigation** | Full-scale incident analysis on an intellectual property theft case resulting in a court-ready technical brief[cite: 2].
 
 ---
 
-## 📫 Connect with me
-* **LinkedIn:** https://www.linkedin.com/in/junaidsawand/
-* **TryHackMe:** https://tryhackme.com/p/junaidsawand
+## 🚀 Key Achievements & Baseline Labs
+*   **TryHackMe SOC Level 1 Path:** Completed 20+ dedicated defensive lab rooms focusing on log data review and security analysis processes.
+
+## 📫 Professional Links
+*   **LinkedIn:** https://www.linkedin.com/in/junaidsawand/
+*   **TryHackMe Profile:** https://tryhackme.com/p/junaidsawand
