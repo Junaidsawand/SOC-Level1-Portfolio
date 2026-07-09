@@ -1,0 +1,99 @@
+<!-- Local rules -->
+
+
+
+<group name="local,syslog,sshd,">
+
+
+
+  <!-- Example Rule -->
+
+  <rule id="100001" level="5">
+
+    <if_sid>5716</if_sid>
+
+    <srcip>1.1.1.1</srcip>
+
+    <description>sshd: authentication failed from IP 1.1.1.1.</description>
+
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+
+  </rule>
+
+
+
+  <!-- Rule 1: Linux User Account Creation -->
+
+  <rule id="100010" level="10">
+
+    <if_sid>5501</if_sid>
+
+    <description>Custom Alert: New Linux user account created</description>
+
+    <mitre>
+
+      <id>T1136</id>
+
+    </mitre>
+
+  </rule>
+
+
+
+  <!-- Rule 2: SSH Brute Force -->
+
+  <rule id="100011" level="12" frequency="5" timeframe="120">
+
+    <if_matched_sid>5760</if_matched_sid>
+
+    <same_source_ip/>
+
+    <description>Custom Alert: SSH Brute Force Attack Detected</description>
+
+    <mitre>
+
+      <id>T1110</id>
+
+    </mitre>
+
+  </rule>
+
+
+
+  <!-- Rule 3: USB Device Connected -->
+
+  <rule id="100012" level="8">
+
+    <if_sid>18107</if_sid>
+
+    <description>Custom Alert: USB Device Connected</description>
+
+    <mitre>
+
+      <id>T1091</id>
+
+    </mitre>
+
+  </rule>
+
+
+
+  <!-- Rule 4: USB Device Inserted -->
+
+  <rule id="100013" level="10">
+
+    <field name="win.system.eventID">2003</field>
+
+    <description>Custom Alert: USB Device Inserted</description>
+
+    <mitre>
+
+      <id>T1091</id>
+
+    </mitre>
+
+  </rule>
+
+
+
+</group> 
