@@ -1,40 +1,41 @@
-# Junaid Ahmed | Defensive Security & Forensics Portfolio
+# Junaid Ahmed  | Defensive Security & Forensics Portfolio
 
-Welcome to my engineering logs. This repository documents my hands-on experience building defensive architectures, analyzing host/network telemetry, and conducting forensic investigations. 
+Welcome to my engineering logs. This repository documents my hands-on experience building defensive security architectures, analyzing host/network telemetry, and conducting deep-dive digital forensic investigations. 
 
-I am currently documented my progress through the **Cyberster Blue Team Internship (Batch #02)** mentored by Abdullah Zia[cite: 2]. My focus is on moving past simple theory to build production-grade detection pipelines and comprehensive incident timelines[cite: 1, 2].
+My focus is on moving past foundational theory to architect production-grade detection pipelines, implement automated incident containment, and reconstruct granular compromise timelines.
+
+---
 
 ## 🛠️ Core Tech Stack & Tools
-*   **SIEM / Log Management:** Wazuh SIEM[cite: 2]
-*   **Intrusion Detection:** Suricata IDS[cite: 2]
-*   **Forensics & Artifact Analysis:** FTK Imager, Autopsy, EZ Tools Suite[cite: 2]
-*   **Network Analysis:** Wireshark, tcpdump[cite: 2]
+
+*   **SIEM / Log Management:** Wazuh SIEM, Elastic Stack, Logstash
+*   **Intrusion Detection:** Suricata Network IDS
+*   **Endpoint Security:** File Integrity Monitoring (FIM), System Audit Logging, Host-Based Firewalls
+*   **Digital Forensics & Incident Response (DFIR):** FTK Imager, Autopsy, EZ Tools Suite (PECmd, LECmd, RECmd, Registry Explorer), log2timeline/plaso
+*   **Network Triage:** Wireshark, tcpdump
 
 ---
 
-## 📁 Repository Structure & Roadmap
+## 📁 Repository Structure & Engineering Roadmap
 
-### 🔵 01_SOC-Track (Phase 1: Weeks 1 - 6)
-*   [x] **Week 1: SOC Foundations & Lab Setup** | Dual-adapter isolated network setup using VMware Workstation Pro. Deployed Kali Linux (Attacker), Ubuntu Server (Wazuh SIEM), and Windows 10 Pro (Monitored Endpoint)[cite: 1, 2].
-*   [ ] **Week 2: Wazuh SIEM Compilation** | Setting up the indexer, server manager, and security dashboard components from the ground up[cite: 1].
-*   [ ] **Week 3: Real-Time File Integrity Monitoring (FIM)** | Configuring directory watching and filtering system logging noise[cite: 1, 2].
-*   [ ] **Week 4: Suricata IDS Integration** | Merging live network traffic detection rules into centralized SIEM alert feeds[cite: 2].
-*   [ ] **Week 5: Threat Intelligence Automation** | Building automation lookups utilizing active OSINT feeds (VirusTotal, Abuse.ch)[cite: 2].
-*   [ ] **Week 6: Applied Malware Analysis** | Investigating runtime executable execution paths and staging response plans[cite: 2].
+### 🔵 SOC-Track (Phase 1 — Security Operations & Threat Detection Engineering)
+*   [x] **Week 1: SOC Foundations & Lab Architecture** | Engineered a dual-adapter isolated testing infrastructure using VMware Workstation Pro. Deployed a localized attack platform (Kali Linux), a centralized SIEM hub (Ubuntu Server hosting the Wazuh Manager, Indexer, and Dashboard), and a monitored enterprise target (Windows 10 Pro).
+*   [x] **Week 2: File Integrity Monitoring (FIM) & Automated Active Response** | Configured real-time cross-platform directory watching engines (`syscheck`). Engineered multi-stage custom XML detection signatures (IDs > 100000) for unauthorized user account creations, threshold-based SSH brute-force actions, and Windows USB device placements. Implemented dynamic host containment actions via stateful firewall scripts.
+*   [ ] **Week 3: Network Intrusion Detection Engine Integration** | Integrating Suricata IDS to merge network-layer signature events and live packet capture inspection streams directly into the centralized SIEM telemetry pipeline.
+*   [ ] **Week 4: Threat Intelligence Automation & Enrichment** | Building automated API enrichment lookups leveraging OSINT threat intelligence feeds (VirusTotal, Abuse.ch) to auto-triage indicators of compromise.
+*   [ ] **Week 5: Log Aggregation, Normalization & Parsers** | Custom log ingestion engineering, configuring advanced parsers, and standardizing high-volume telemetry fields across heterogeneous operating systems.
+*   [ ] **Week 6: Behavioral Malware Triage & Incident Playbooks** | Conducting static and dynamic analysis of malicious execution paths and compiling structured incident response containment playbooks.
 
-### 🔴 02_DFIR-Track (Phase 2: Weeks 7 - 12)
-*   [ ] **Week 7: Forensic Disk Imaging** | Creating bit-stream forensic copies, executing integrity checks, and logging strict chain of custody data[cite: 2].
-*   [ ] **Week 8: Windows Host Artifacts** | Deep carving of Event Logs, parsing application Prefetch history, and system execution trace tracking[cite: 2].
-*   [ ] **Week 9: Browser & Memory Forensics** | Recovering data streams, session state, and download histories from common web clients[cite: 2].
-*   [ ] **Week 10: Shortcut & Device Analysis** | Reconstructing chronological user activity using Jump Lists, LNK metadata patterns, and external storage footprints[cite: 2].
-*   [ ] **Week 11: Windows Registry Forensics** | Locating persistence footholds, checking configuration states, and parsing malware execution artifacts[cite: 2].
-*   [ ] **Week 12: M57 Capstone Investigation** | Full-scale incident analysis on an intellectual property theft case resulting in a court-ready technical brief[cite: 2].
+### 🔴 DFIR-Track (Phase 2 — Digital Forensics & Incident Response)
+*   [ ] **Week 7: Forensic Imaging & Evidence Preservation** | Provisioning bit-stream forensic copies, executing strict cryptographic verification hashing, and mapping formal chain of custody data logs.
+*   [ ] **Week 8: Windows Host Artifact Triage** | Deep data carving of native Windows Event logs, parsing application execution traces (Prefetch, Amcache, Shimcache), and reconstructing active system execution baselines.
+*   [ ] **Week 9: Memory Forensics & Browser History Analysis** | Carving volatile memory dumps and parsing browsing history streams, active session cookies, and local download registers across modern web clients.
+*   [ ] **Week 10: User Activity Timeline Reconstruction** | Tracing chronological human actions through automated parsing of shell items, jump lists, `.lnk` metadata files, and external storage device system interactions.
+*   [ ] **Week 11: Windows Registry Forensics** | Uncovering advanced persistence mechanisms, user profile modifications, installed applications, and hidden malware configuration hives.
+*   [ ] **Week 12: Comprehensive Incident Investigation Capstone** | Full-scale forensic analysis of a complex network breach and intellectual property theft scenario, culminating in an executive-ready technical brief.
 
----
 
-## 🚀 Key Achievements & Baseline Labs
-*   **TryHackMe SOC Level 1 Path:** Completed 20+ dedicated defensive lab rooms focusing on log data review and security analysis processes.
 
-## 📫 Professional Links
-*   **LinkedIn:** https://www.linkedin.com/in/junaidsawand/
-*   **TryHackMe Profile:** https://tryhackme.com/p/junaidsawand
+## 📫 Professional Connections
+*   **LinkedIn:** [linkedin.com/in/junaidsawand](https://www.linkedin.com/in/junaidsawand/)
+
