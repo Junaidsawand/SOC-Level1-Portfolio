@@ -1,4 +1,4 @@
-# Junaid Ahmed Sawand | Defensive Security & Forensics Portfolio
+# Junaid Ahmed  | Defensive Security & Forensics Portfolio
 
 Welcome to my engineering logs. This repository documents my hands-on experience building defensive security architectures, analyzing host/network telemetry, and conducting deep-dive digital forensic investigations. 
 
