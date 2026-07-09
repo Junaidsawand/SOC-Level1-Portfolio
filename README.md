@@ -20,7 +20,7 @@ My focus is on moving past foundational theory to architect production-grade det
 
 ### 🔵 SOC-Track (Phase 1 — Security Operations & Threat Detection Engineering)
 *   [x] **Week 1: SOC Foundations & Lab Architecture** | Engineered a dual-adapter isolated testing infrastructure using VMware Workstation Pro. Deployed a localized attack platform (Kali Linux), a centralized SIEM hub (Ubuntu Server hosting the Wazuh Manager, Indexer, and Dashboard), and a monitored enterprise target (Windows 10 Pro).
-*   [ ] **Week 2: File Integrity Monitoring (FIM) & Automated Active Response** | Configured real-time cross-platform directory watching engines (`syscheck`). Engineered multi-stage custom XML detection signatures (IDs > 100000) for unauthorized user account creations, threshold-based SSH brute-force actions, and Windows USB device placements. Implemented dynamic host containment actions via stateful firewall scripts.
+*   [x] **Week 2: File Integrity Monitoring (FIM) & Automated Active Response** | Configured real-time cross-platform directory watching engines (`syscheck`). Engineered multi-stage custom XML detection signatures (IDs > 100000) for unauthorized user account creations, threshold-based SSH brute-force actions, and Windows USB device placements. Implemented dynamic host containment actions via stateful firewall scripts.
 *   [ ] **Week 3: Network Intrusion Detection Engine Integration** | Integrating Suricata IDS to merge network-layer signature events and live packet capture inspection streams directly into the centralized SIEM telemetry pipeline.
 *   [ ] **Week 4: Threat Intelligence Automation & Enrichment** | Building automated API enrichment lookups leveraging OSINT threat intelligence feeds (VirusTotal, Abuse.ch) to auto-triage indicators of compromise.
 *   [ ] **Week 5: Log Aggregation, Normalization & Parsers** | Custom log ingestion engineering, configuring advanced parsers, and standardizing high-volume telemetry fields across heterogeneous operating systems.
@@ -34,13 +34,8 @@ My focus is on moving past foundational theory to architect production-grade det
 *   [ ] **Week 11: Windows Registry Forensics** | Uncovering advanced persistence mechanisms, user profile modifications, installed applications, and hidden malware configuration hives.
 *   [ ] **Week 12: Comprehensive Incident Investigation Capstone** | Full-scale forensic analysis of a complex network breach and intellectual property theft scenario, culminating in an executive-ready technical brief.
 
----
 
-## 🚀 Key Achievements & Applied Learning
-*   **TryHackMe SOC Level 1 Certification Path:** Completed over 20+ hands-on defensive security labs focusing on log analysis, packet analysis, and tactical alert triage.
-
----
 
 ## 📫 Professional Connections
 *   **LinkedIn:** [linkedin.com/in/junaidsawand](https://www.linkedin.com/in/junaidsawand/)
-*   **TryHackMe Portfolio:** [tryhackme.com/p/junaidsawand](https://tryhackme.com/p/junaidsawand)
+
